@@ -1,0 +1,136 @@
+/* common part  */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+section {
+  width: 1170px;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* Navigation bar  */
+nav {
+  width: 100%;
+  height: 75px;
+  background-color: #7f8fa6;
+  line-height: 75px;
+}
+/* logo (left side) */
+nav .logo {
+  float: left;
+}
+nav .logo p {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  color: white;
+  text-transform: uppercase;
+  padding: 0px 50px;
+}
+/* Menu (right side) */
+nav ul {
+  float: right;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 0px 15px;
+}
+nav ul li a:hover {
+  color: tomato;
+}
+
+/* Main image or Home image  */
+.home-image img {
+  width: 100%;
+  height: 0 auto;
+}
+
+/* Car name with h1 tag  */
+#car-name {
+  text-align: center;
+}
+/* Car description */
+#description {
+  text-align: justify;
+}
+
+/* Car looks or gallery  */
+.gallery {
+  float: left;
+  width: 364px;
+  margin: 10px;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+/* Photo captions */
+.photo-caption {
+  padding: 10px;
+  text-align: center;
+}
+
+/* latest car short description and image  */
+.short-description {
+  float: left;
+  width: 49%;
+  padding: 5px;
+  text-align: justify;
+}
+.features {
+  font-weight: bold;
+  padding: 15px;
+}
+.latest-car-image {
+  border: 2px solid white;
+  border-radius: 10px;
+  float: right;
+  width: 49%;
+}
+.latest-car-image img {
+  width: 100%;
+  height: auto;
+}
+
+/* Footer section and Contact info */
+.footer-bottom {
+  background-color: #7f8fa6;
+  float: left;
+  width: 100%;
+  padding: 20px 0px;
+  text-align: center;
+}
+.footer-bottom a {
+  color: black;
+  text-decoration: none;
+}
+.footer-bottom a:hover {
+  color: white;
+}
+/* contact icons */
+.footer-bottom i {
+  font-size: 23px;
+  padding-left: 10px;
+}
+/* Copyright */
+.footer-bottom p {
+  color: white;
+  font-size: 12px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
